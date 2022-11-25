@@ -1,0 +1,237 @@
+@media screen and (max-width:2646px){
+  .doc-footer a{
+    color:white;
+    font-weight:bold;
+  }
+}
+@media screen and (max-width: 1440px){
+
+  .card-container {
+    grid-template-columns:50% 48%;
+  }
+
+  .card {
+    padding: 5vh 4vh;
+  }
+
+  .card h3{
+    font-size: 30px;
+  }
+
+  .card .due {
+    font-size: 23px;
+  }
+
+  .card p{
+    font-size: 23px;
+  }
+
+  .doc-footer{
+    width:30%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+
+    .card-container {
+      grid-template-columns:50% 48%;
+    }
+
+    .card {
+      padding: 5vh 4vh;
+    }
+
+    .card h3{
+      font-size: 30px;
+    }
+
+    .card .due {
+      font-size: 23px;
+    }
+
+    .card p{
+      font-size: 23px;
+    }
+
+    .doc-footer{
+      width:40%;
+    }
+  }
+  @media screen and (max-width: 768px){
+
+    .about h1{
+      width: 90%;
+    }
+    .container {
+      width: 94%;
+    }
+
+    .card {
+      padding: 4vh 5vh;
+    }
+
+    .card h3 {
+      font-size: 25px;
+    }
+
+    .doc-footer{
+      width: 43%;
+      grid-template-columns: 13% 100%;
+    }
+  }
+@media screen and (max-width:425px){
+
+  header {
+    width: 160%;
+  }
+
+   .about {
+    width: 100%;
+  }
+
+  .about h1{
+    width: 100%;
+    font-size: 52px;
+  }
+
+  .about p {
+    width:100%;
+    font-size:32px;
+  }
+
+
+  .container {
+    grid-template-columns: 166%;
+    grid-row-gap: 7rem;
+  }
+
+  .card {
+    height: 112%;
+    padding: 5vh 6vh;
+  }
+
+  .card h3{
+    font-weight: bold;
+    font-size:35px;
+  }
+
+  .card .due {
+    font-weight:bold;
+    font-size:30px;
+  }
+  .card p{
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+  .doc-footer{
+    grid-template-columns: 49% 132%;
+    width: 50%;
+    font-size: 39px;
+    margin: 8vh auto;
+  }
+
+}
+@media screen and (max-width:375px){
+
+  header {
+    width: 160%;
+  }
+
+   .about {
+    width: 100%;
+  }
+
+  .about h1{
+    width: 100%;
+    font-size: 52px;
+  }
+
+  .about p {
+    width:100%;
+    font-size:32px;
+  }
+
+
+  .container {
+    grid-template-columns: 167%;
+    grid-row-gap: 7rem;
+  }
+
+  .card {
+    height: 112%;
+    padding: 5vh 6vh;
+  }
+
+  .card h3{
+    font-weight: bold;
+  }
+
+  .card .due {
+    font-weight:bold;
+  }
+  .card p{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .doc-footer{
+    grid-template-columns: 49% 132%;
+    width: 50%;
+    font-size: 39px;
+    margin: 8vh auto;
+  }
+}
+
+@media screen and (max-width:320px){
+
+  header {
+    width: 160%;
+  }
+
+   .about {
+    width: 100%;
+  }
+
+  .about h1{
+    width: 100%;
+    font-size: 52px;
+  }
+
+  .about p {
+    width:100%;
+    font-size:32px;
+  }
+
+
+  .container {
+    grid-template-columns: 170%;
+    grid-row-gap: 7rem;
+  }
+
+  .card {
+    height: 112%;
+    padding: 5vh 6vh;
+  }
+
+  .card h3{
+    font-weight: bold;
+  }
+
+  .card .due {
+    font-weight:bold;
+  }
+  .card p{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .doc-footer{
+    grid-template-columns: 49% 132%;
+    width: 50%;
+    font-size: 39px;
+    margin: 8vh auto;
+  }
+}
+
+

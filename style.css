@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  
+   background: rgb(78,71,71);
+  background: linear-gradient(90deg, rgba(78,71,71,1) 0%, rgba(0,0,0,1) 25%);
+    
+    
+    background-image: url('/background.jpg');
+    background-repeat: no-repeat repeat;
+    background-size:cover;
+  }
+  
+  .about{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 5vh;
+    
+  }
+  
+  .about h1 {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+    text-align:center;
+    font-size:67px;
+  }
+  
+  .about p{
+    width: 65%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-size: 32px;
+  }
+  .container{
+  
+    width: 90%;
+    padding: 2px;
+    margin: 0  auto 0;
+    display: grid;
+    grid-template-columns: 50% 48%;
+    grid-row-gap: 3rem;
+    grid-column-gap: 2rem;
+  
+  }
+  
+  .card {
+  
+    height: 50vh;
+    padding: 5vh 10vh;
+    
+    color: white;
+  background: rgb(65,65,65);
+  background: linear-gradient(0deg, rgba(65,65,65,1) 0%, rgba(0,0,0,1) 85%);
+   
+    border-radius: 4rem;
+    box-shadow: 2px 2px 1px 3px  rgba(255,255,255,1);
+    opacity: 0.7;
+    
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .card h3 {
+    text-align:center;
+    margin-bottom: 0.5rem;
+    font-size: 40px;
+    color:lime;
+    text-decoration: none;
+  }
+  .card p{
+    text-align:center;
+    margin-bottom: 2rem;
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  .card .due{
+    text-align:center;
+    margin-bottom: 2rem;
+    font-size: 28px;
+    color: yellow;
+  }
+  
+  .about h1:hover{
+    color: lime;
+  }
+  .card:hover {
+    cursor: pointer;
+    opacity: 1;
+    
+  }
+  
+  .doc-footer {
+      display: grid;
+      grid-template-columns: 15% 79%;
+      margin: 3vh auto;
+      font-size: 35px;
+      width: 23%;
+      padding: 1% 0;
+  }
+  
+  .doc-footer a{
+    color: white;
+  }
+
+  
+  
+  
+  
+  
