@@ -28,4 +28,4 @@ html document.
 This project was a beautiful learning and has added one page in my learning and understanding, though I feel there could also be many things that
 can be done more to this but I gave my best from my side while managing the college routine aside. Finally, this project is accomplished and I will be looking 
 for the further changes that can be added to the same.
-### Url for the web-page: [Kontest-tracker](https://kontest-tracker.netlify.app/)
+### Live at: [Kontest-tracker](https://kontest-tracker.netlify.app/)
